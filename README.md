@@ -4,6 +4,15 @@
 
 ## Boost Union Find
 
+```cpp
+boost::disjoint_sets_with_storage<> uf(n);
+std::size_t a, b;
+std::size_t c1 = uf.find_set(a);
+std::size_t c1 = uf.find_set(b);
+uf.link(c1, c2);
+
+```
+
 ## CGal Geometry
 
 ## CGal Triangulation
