@@ -1,5 +1,5 @@
 # Algolab cheatsheet
-
+Lukas also sent me their old doc: https://docs.google.com/document/d/1yAtgKC3Jsnj1a_tlWmjD3qIjL2X12t3sMUMLgi-LHvw
 ## Useful std::
 
 ## Boost Union Find
