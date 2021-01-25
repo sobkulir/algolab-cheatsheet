@@ -17,6 +17,7 @@ uf.link(c1, c2);
 
 ```cpp
 // Remove Edge
+// Actually I do not know what happens when you have multiple edges from i to j.
 boost::remove_edge(boost::edge(i,j,g).first, g);
 ```
 
