@@ -15,6 +15,23 @@ uf.link(c1, c2);
 
 ## CGal Geometry
 
+
+### Binary Search SQRT-Root
+```cpp
+auto radius = c.squared_radius();
+decltype(radius) l(0), r(radius+1);
+while(r - l > 0.1) {
+  auto mid = (r+l)/2;
+  if(mid * mid >= radius) 
+    r = mid;
+  else 
+  l = mid;
+}
+
+long out = floor_to_double(l);
+while (K::FT(out) * K::FT(out) < radius) ++out;
+```
+
 ### Geometry Operations
 
 ```cpp
