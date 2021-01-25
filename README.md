@@ -13,6 +13,13 @@ uf.link(c1, c2);
 
 ```
 
+## Boost Graphs 
+
+```cpp
+// Remove Edge
+boost::remove_edge(boost::edge(i,j,g).first, g);
+```
+
 ## CGal Geometry
 
 
